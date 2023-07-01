@@ -33,41 +33,39 @@ These constraints play a crucial role in optimizing the waste collection routes 
 ## Sample Example
 
 Here is a sample example of the input data for the waste collection problem:
+| Client | Location          | Container Size | Company Type         |
+| ------ | ----------------- | -------------- | -------------------- |
+| 1      | Antwerpen         | 20 m3          | Bookstore            |
+| 2      | Grimbergen        | 15 m3          | Bookstore            |
+| 3      | Leuven            | 20 m3          | Fish Shop            |
+| 4      | Mechelen          | 18 m3          | Restaurant           |
+| 5      | Zaventem          | 15 m3          | Garage               |
+| 6      | Gent              | 20 m3          | Construction Company |
+| 7      | Waver             | 20 m3          | Bookstore            |
+| 8      | Hasselt           | 18 m3          | Laboratory           |
+| 9      | Luik              | 20 m3          | Vegetables           |
+| 10     | Boutersem         | 20 m3          | Construction Company |
+| 11     | Boom              | 18 m3          | Fish Shop            |
+| 12     | Duffel            | 20 m3          | Electronics          |
+| 13     | Brussel           | 20 m3          | Vegetables           |
+| 14     | Leuven            | 15 m3          | Restaurant           |
+| 15     | Brugge            | 20 m3          | Garage               |
+| 16     | Zonhoven          | 20 m3          | Bookstore            |
+| 17     | Mol               | 20 m3          | Bookstore            |
+| 18     | Herentals         | 20 m3          | Fish Shop            |
+| 19     | Veurne            | 18 m3          | Restaurant           |
+| 20     | Brussel           | 15 m3          | Garage               |
+| 21     | Zelzate           | 20 m3          | Construction Company |
+| 22     | Leuven            | 20 m3          | Bookstore            |
+| 23     | Aarschot          | 18 m3          | Laboratory           |
+| 24     | Diest             | 20 m3          | Vegetables           |
+| 25     | Tienen            | 20 m3          | Construction Company |
+| 26     | Lier              | 18 m3          | Restaurant           |
+| 27     | Geel              | 20 m3          | Electronics          |
+| 28     | Kortrijk          | 20 m3          | Vegetables           |
+| 29     | Ieper             | 20 m3          | Restaurant           |
+| 30     | Louvain-la-Neuve  | 20 m3          | Garage               |
 
-```
-Client   Location     Container Size     Company Type
-1        Antwerpen    20 m3              Bookstore
-2        Grimbergen   15 m3              Bookstore
-3        Leuven       20 m3              Fish Shop
-4        Mechelen     18 m3              Restaurant
-5        Zaventem     15 m3              Garage
-6        Gent         20 m3              Construction Company
-7        Waver        20 m3              Bookstore
-8        Hasselt      18 m3              Laboratory
-9        Luik         20 m3              Vegetables
-10       Boutersem    20 m3              Construction Company
-11       Boom         18 m3              Fish Shop
-12       Duffel       20 m3              Electronics
-13       Brussel      20 m3              Vegetables
-14       Leuven       15 m3              Restaurant
-15       Brugge       20 m3              Garage
-16       Zonhoven     20 m3              Bookstore
-17       Mol          20 m3              Bookstore
-18       Herentals    20 m3              Fish Shop
-19       Veurne       18 m3              Restaurant
-20       Brussel      15 m3              Garage
-21       Zelzate      20 m3              Construction Company
-22       Leuven       20 m3              Bookstore
-23       Aarschot     18 m3              Laboratory
-24       Diest        20 m3              Vegetables
-25       Tienen       20 m3              Construction Company
-26       Lier         18 m3              Restaurant
-27       Geel         20 m3              Electronics
-28       Kortrijk     20 m3              Vegetables
-29       Ieper        20 m3              Restaurant
-30       Louvain-la-Neuve   20 m3       Garage
-
-```
 
 ## Installation
 
