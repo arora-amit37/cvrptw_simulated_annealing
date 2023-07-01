@@ -11,6 +11,7 @@ The objective of this project is to develop a realistic decision support tool th
 The input data includes detailed information about the 30 customers whose waste needs to be processed in 4 waste processing facilities. Each customer has a specific volume of demand, and containers of various sizes are used to meet these demands. The trucks start their routes from the depot in Kampenhout and must return to the depot by 5 PM. Constraints related to time windows, waste type, waste processing facility, and customer-specific requirements are defined in Table 1.
 
 Please refer to the provided sample example for the format of the input data, including client locations, types of containers, and types of companies.
+![sample (1)](https://github.com/arora-amit37/cvrptw_simulated_annealing/assets/50020662/e2f2c53c-5094-4145-a98c-b814ac467634)
 
 The distance matrix used in the optimization process was calculated in QGIS, which takes into account the geographical coordinates of the client locations.
 
@@ -65,15 +66,6 @@ Here is a sample example of the input data for the waste collection problem:
 | 28     | Kortrijk          | 20 m3          | Vegetables           |
 | 29     | Ieper             | 20 m3          | Restaurant           |
 | 30     | Louvain-la-Neuve  | 20 m3          | Garage               |
-
-
-## Installation
-
-To use this repository, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/cvrp-waste-collection.git`
-2. Navigate to the project directory: `cd cvrp-waste-collection`
-3. Install the necessary dependencies: `pip install -r requirements.txt`
 
 ## Usage
 
