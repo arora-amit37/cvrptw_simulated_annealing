@@ -1,4 +1,4 @@
-# Capacitated Vehicle Routing Problem for Waste Collection with Time Windows
+# Capacitated Vehicle Routing Problem for Waste Collection with Time Windows using Simulated Annealing
 
 ## Introduction
 
