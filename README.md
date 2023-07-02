@@ -75,9 +75,7 @@ The repository provides a set of tools and resources to solve the CVRP for waste
 
 2. **Simulated Annealing Implementation**: Use the implemented simulated annealing algorithm tailored for the CVRP with time windows. Adjust the algorithm's parameters, such as initial temperature, cooling schedule, and neighbor generation methods, to optimize the results for your problem instance.
 
-3. **Visualization and Evaluation**: Utilize the provided visualization utilities to analyze the results of the simulated annealing algorithm. Plot optimized routes, visualize waste collection patterns, and evaluate the efficiency of the algorithm in terms of solution quality,
-
- adherence to time windows, and computational time.
+3. **Visualization and Evaluation**: Utilize the provided visualization utilities to analyze the results of the simulated annealing algorithm. Plot optimized routes, visualize waste collection patterns, and evaluate the efficiency of the algorithm in terms of solution quality, adherence to time windows, and computational time.
 
 4. **Examples and Tutorials**: Explore the example datasets, sample code, and tutorials included in the repository. These resources guide you through solving the CVRP for waste collection repositories with time windows using simulated annealing and help you understand the capabilities of the algorithm.
 
