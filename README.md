@@ -1,4 +1,4 @@
-# Capacitated Vehicle Routing Problem for Waste Collection Repository with Time Windows
+# Capacitated Vehicle Routing Problem for Waste Collection with Time Windows
 
 ## Introduction
 
@@ -8,7 +8,7 @@ The objective of this project is to develop a realistic decision support tool th
 
 ## Input Data
 
-The input data includes detailed information about the 30 customers whose waste needs to be processed in 4 waste processing facilities. Each customer has a specific volume of demand, and containers of various sizes are used to meet these demands. The trucks start their routes from the depot in Kampenhout and must return to the depot by 5 PM. Constraints related to time windows, waste type, waste processing facility, and customer-specific requirements are defined in Table 1.
+The input data includes detailed information about the 30 customers whose waste needs to be processed in 4 waste processing facilities. Each customer has a specific volume of demand, and containers of various sizes are used to meet these demands. The trucks start their routes from the depot in Kampenhout and must return to the depot by 5 PM. Constraints related to time windows, waste type, waste processing facility, and customer-specific requirements are defined in the section below.
 
 Please refer to the provided sample example for the format of the input data, including client locations, types of containers, and types of companies.
 ![sample (1)](https://github.com/arora-amit37/cvrptw_simulated_annealing/assets/50020662/e2f2c53c-5094-4145-a98c-b814ac467634)
@@ -33,7 +33,7 @@ These constraints play a crucial role in optimizing the waste collection routes 
 
 ## Sample Example
 
-Here is a sample example of the input data for the waste collection problem:
+The algorithm was created using a sample data of 30 waste collection points in different cities across Flanders. Here is a sample example of the input data for the waste collection problem:
 | Client | Location          | Container Size | Company Type         |
 | ------ | ----------------- | -------------- | -------------------- |
 | 1      | Antwerpen         | 20 m3          | Bookstore            |
